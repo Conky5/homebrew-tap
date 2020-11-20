@@ -1,14 +1,14 @@
 class Eq < Formula
   desc "A simple command line interface for Elasticsearch queries."
   homepage "https://github.com/Conky5/eq"
-  version "0.4.0"
+  version "1.0.0"
 
   if OS.mac?
-    url "https://github.com/Conky5/eq/releases/download/v0.4.0/eq-v0.4.0-x86_64-apple-darwin.tar.gz"
-    sha256 "ced3c0694c68c53014989cf60ac9e46a7aaea819ec03bb990e9105f3954ee0b3"
+    url "https://github.com/Conky5/eq/releases/download/v1.0.0/eq-v1.0.0-x86_64-apple-darwin.tar.gz"
+    sha256 "2d1fa6a2def51b3754906d4d6a4ea4f478eb6d65cfa79c38483b09acb4ca7738"
   elsif OS.linux?
-    url "https://github.com/Conky5/eq/releases/download/v0.4.0/eq-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "1e2452396e5bf6e63564d4ac0d384e593dbfd16abd9f5a30fa6ac07ed3428bb6"
+    url "https://github.com/Conky5/eq/releases/download/v1.0.0/eq-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "1662fce600d04060eab98caee17c0a7aebe47d6afb4d790e87e0a84231128058"
   end
 
   def install
